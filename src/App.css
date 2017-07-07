@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'DINPro';
+  font-style: normal;
+  font-weight: normal;
+  src: url('styles/font/dinproregular.eot');
+  src: url('styles/font/dinproregular.eot?#iefix') format('embedded-opentype'),
+       url('styles/font/dinproregular.woff') format('woff'),
+       url('styles/font/dinproregular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'DINPro-Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: url('styles/font/dinpromedium.eot');
+  src: url('styles/font/dinpromedium.eot?#iefix') format('embedded-opentype'),
+       url('styles/font/dinpromedium.woff') format('woff'),
+       url('styles/font/dinpromedium.ttf') format('truetype');
+  
+}
+@font-face {
+  font-family: 'DINPro-Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: url('styles/font/dinprobold.eot');
+  src: url('styles/font/dinprobold.eot?#iefix') format('embedded-opentype'),
+       url('styles/font/dinprobold.woff') format('woff'),
+       url('styles/font/dinprobold.ttf') format('truetype');
+  
+}
+@font-face {
+  font-family: 'DINPro-Light';
+  font-style: normal;
+  font-weight: normal;
+  src: url('styles/font/dinprolight.eot');
+  src: url('styles/font/dinprolight.eot?#iefix') format('embedded-opentype'),
+       url('styles/font/dinprolight.woff') format('woff'),
+       url('styles/font/dinprolight.ttf') format('truetype');
+}
+
+html {
+  font-family: 'DINPro';
+}
+
+hr {
+  border-top: 2px solid #E63131;
+  min-width:65%;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  color: white;
+  height: 150px;
+  padding: 20px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.verticalLine {
+  border-left: 2px solid #E63131;
+  margin: 19px;
+}

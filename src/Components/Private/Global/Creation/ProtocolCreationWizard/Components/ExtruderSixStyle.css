@@ -1,0 +1,84 @@
+/*Hexagon */
+
+.hexagon {
+  position: relative;
+  width: 150px; 
+  height: 86.605px;
+  background-color: transparent;
+  margin: 86.60px 0;
+  transition: all .75s .25s;
+}
+
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 75px solid transparent;
+  border-right: 75px solid transparent;
+}
+
+.hexagon:before {
+  bottom: 99%;
+  border-bottom: 43.30px solid transparent;
+}
+
+.hexagon:after {
+  top: 99.95%;
+  width: 0;
+  border-top: 43.30px solid transparent;
+}
+
+.hexagon li {
+  color: white;
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  list-style-type: none;
+  text-align: center;
+  font: 10px/35px Helvetica, Arial, sans-serif;
+  top: 0;
+  left: 0;
+  transition: all .75s .25s;
+}
+
+.hexagon li:nth-child(1) {
+  top: -65%;
+  left: 40%;
+  background: clear;
+}
+
+.hexagon li:nth-child(2) {
+  top: -10%;
+  left: 90%;
+  background: clear;
+}
+
+.hexagon li:nth-child(3) {
+  top: 90%;
+  left: 90%;
+  background: clear;
+  z-index: 1;
+}
+
+.hexagon li:nth-child(4) {
+  top: 125%;
+  left: 40%;
+  background: clear;
+  z-index: 1;
+}
+
+.hexagon li:nth-child(5) {
+  top: 90%;
+  left: -10%;
+  background: clear;
+  z-index: 1;
+}
+
+.hexagon li:nth-child(6) {
+  top: -10%;
+  left: -10%;
+  background: clear;
+   z-index: 1;
+}
