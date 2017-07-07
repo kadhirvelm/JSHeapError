@@ -1,3 +1,4 @@
 ### Crashes when building
-```yarn build
+```
+yarn build
 ```
